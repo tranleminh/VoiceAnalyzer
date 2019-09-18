@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Please Enter Your ID"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_record"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Start Recording" />
+
+    <Button
+        android:id="@+id/btn_showtext"
+        android:visibility="invisible"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Show Text" />
+
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Term of use" />
+
+    <Chronometer
+        android:id="@+id/clk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="invisible" />
+
+</LinearLayout>

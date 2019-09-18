@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "131004101586",
+    "firebase_url": "https://voiceanalyzer-33e5f.firebaseio.com",
+    "project_id": "voiceanalyzer-33e5f",
+    "storage_bucket": "voiceanalyzer-33e5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131004101586:android:eeb5ca989db48ebc640e0b",
+        "android_client_info": {
+          "package_name": "com.functionality.voiceanalyzer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131004101586-m6si6tsqa6dtoi3hktlejhof6ek9d7d2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.functionality.voiceanalyzer",
+            "certificate_hash": "fdace4caf14b1861f750664e16ed436c607bf630"
+          }
+        },
+        {
+          "client_id": "131004101586-9p8bcrj65fjb9qhm65mpaaqr7ai64rep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfOTSVAwmXnJ-3bk3wnWWwyjCuNhudWSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131004101586-9p8bcrj65fjb9qhm65mpaaqr7ai64rep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
