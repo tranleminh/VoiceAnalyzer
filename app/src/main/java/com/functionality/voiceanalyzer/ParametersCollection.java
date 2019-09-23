@@ -14,28 +14,26 @@ public class ParametersCollection {
     public static final String sharedPrefFile = "VoiceAnalyzerPreferences";
     public static final String TOOLTIPS_TITLE = "Welcome to Voice Analyzer";
     public static final String TOOLTIPS_MESSAGE = "TODO ADD MESSAGE";
-    public static final String TEXT_TO_READ = "Allégorie" +
-            "C'est une femme belle et de riche encolure,\n" +
-            "Qui laisse dans son vin traîner sa chevelure.\n" +
-            "Les griffes de l'amour, les poisons du tripot,\n" +
-            "Tout glisse et tout s'émousse au granit de sa peau.\n" +
-            "Elle rit à la mort et nargue la Débauche,\n" +
-            "Ces monstres dont la main, qui toujours gratte et fauche,\n" +
-            "Dans ses jeux destructeurs a pourtant respecté\n" +
-            "De ce corps ferme et droit la rude majesté.\n" +
-            "Elle marche en déesse et repose en sultane ;\n" +
-            "Elle a dans le plaisir la foi mahométane,\n" +
-            "Et dans ses bras ouverts, que remplissent ses seins,\n" +
-            "Elle appelle des yeux la race des humains.\n" +
-            "Elle croit, elle sait, cette vierge inféconde\n" +
-            "Et pourtant nécessaire à la marche du monde,\n" +
-            "Que la beauté du corps est un sublime don\n" +
-            "Qui de toute infamie arrache le pardon.\n" +
-            "Elle ignore l'Enfer comme le Purgatoire,\n" +
-            "Et quand l'heure viendra d'entrer dans la Nuit noire,\n" +
-            "Elle regardera la face de la Mort,\n" +
-            "Ainsi qu'un nouveau-né, - sans haine et sans remord.\n" +
-            "Charles Baudelaire. ";
+    public static final String TEXT_TO_READ = "Le Corbeau et le Renard" +
+            "Maître Corbeau, sur un arbre perché,\n"+
+            "Tenait en son bec un fromage.\n"+
+            "Maître Renard, par l'odeur alléché,\n"+
+            "Lui tint à peu près ce langage :\n"+
+            "Et bonjour, Monsieur du Corbeau,\n"+
+            "Que vous êtes joli ! que vous me semblez beau !\n"+
+            "Sans mentir, si votre ramage\n"+
+            "Se rapporte à votre plumage,\n"+
+            "Vous êtes le Phénix des hôtes de ces bois.\n"+
+            "À ces mots le Corbeau ne se sent pas de joie,\n"+
+            "Et pour montrer sa belle voix,\n"+
+            "Il ouvre un large bec, laisse tomber sa proie.\n"+
+            "Le Renard s'en saisit, et dit : Mon bon Monsieur,\n"+
+            "Apprenez que tout flatteur\n"+
+            "Vit aux dépens de celui qui l'écoute.\n"+
+            "Cette leçon vaut bien un fromage sans doute.\n"+
+            "Le Corbeau honteux et confus\n"+
+            "Jura, mais un peu tard, qu'on ne l'y prendrait plus.\n"+
+                "Jean de La Fontaine";
     public static final String TITLE_READ = "It's time to read !";
     public static String FILE_NAME = "VoiceAnalyzer";
     public static final String INFO_LEGAL = "TODO ADD TERM OF USE";
