@@ -14,7 +14,7 @@ public class ParametersCollection {
     public static final String sharedPrefFile = "VoiceAnalyzerPreferences";
     public static final String TOOLTIPS_TITLE = "Welcome to Voice Analyzer";
     public static final String TOOLTIPS_MESSAGE = "TODO ADD MESSAGE";
-    public static final String TEXT_TO_READ = "Le Corbeau et le Renard" +
+    public static final String TEXT_TO_READ = "Le Corbeau et le Renard\n" +
             "Maître Corbeau, sur un arbre perché,\n"+
             "Tenait en son bec un fromage.\n"+
             "Maître Renard, par l'odeur alléché,\n"+
