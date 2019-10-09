@@ -8,6 +8,7 @@ import androidx.core.content.ContextCompat;
 import android.app.AlarmManager;
 import android.app.AlertDialog;
 import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
@@ -192,7 +193,13 @@ public class MainActivity extends AppCompatActivity {
         mStorageRef = FirebaseStorage.getInstance().getReference();
 
         /**Get the shared preferences file by name, declared on ParametersCollection.java, then get saved user ID from it**/
-        mPreferences = getSharedPreferences(ParametersCollection.sharedPrefFile, MODE_PRIVATE);
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+            Context directBootContext = this.createDeviceProtectedStorageContext();
+            mPreferences = directBootContext.getSharedPreferences(ParametersCollection.sharedPrefFile, MODE_PRIVATE);
+        }
+        else {
+            mPreferences = getSharedPreferences(ParametersCollection.sharedPrefFile, MODE_PRIVATE);
+        }
         id = mPreferences.getString("ID", id);
         isNotificationEnabled = mPreferences.getBoolean("Notification", isNotificationEnabled);
         isFirstTime = mPreferences.getBoolean("FirstTime", isFirstTime);
