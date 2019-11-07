@@ -266,7 +266,7 @@ public class MainActivity extends AppCompatActivity {
                     isRecording = true;
                     startRecording();
                     displayText();
-                    btnRecord.setText("Stop Recording");
+                    btnRecord.setText("Arrêter l'enregistrement");
                     btnShowText.setVisibility(View.VISIBLE);
                     CLK.setBase(SystemClock.elapsedRealtime());
                     CLK.setVisibility(View.VISIBLE);
