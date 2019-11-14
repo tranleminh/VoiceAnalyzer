@@ -71,10 +71,9 @@ public class ParametersCollection {
             "Conformément aux dispositions de la loi Informatique et Libertés, les participants disposent du droit à demander " +
             "la suppression de leurs données. Si tel était le cas, il vous suffit de contacter la doctorante Marion Kissous " +
             ": marion.kissous@mines-ales.fr\n"+
-            "Concernant les données recueillies, elles seront au début nominatives afin de vous permettre de les supprimer si " +
-            "tel est votre souhait Les données seront ensuite traitées via des logiciels tels que Excel ou R grâce à des numéros " +
-            "aléatoires et ne contiendront donc ainsi aucune information permettant de vous identifier. Ces données seront " +
-            "traitées de façon à respecter l’anonymat.\n"+
+            "Les données recueillies seront stockées sur un serveur sécurisé de IMT Mines Alès avec une clé qui vous sera " +
+            "remise lors de la distribution de l'application et du lancement de l'étude." +
+            "Il ne sera donc pas possible à l'équipe de recherche de vous identifier nominativement.\n"+
             "Le stockage et la sauvegarde de ces données se fera sur les serveurs sécurisés des laboratoires engagés dans " +
             "cette recherche. Seuls la doctorante et son équipe encadrante auront un accès direct aux données. " +
             "Vous pourrez nous solliciter si vous souhaitez connaître les résultats de cette étude et vous aider à les " +
